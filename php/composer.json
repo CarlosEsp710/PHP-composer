@@ -1,0 +1,22 @@
+{
+    "name": "carlosespejel/phpcourse",
+    "description": "Uso de composer para crear proyectos php",
+    "type": "project",
+    "require": {
+        "illuminate/database": "9.x-dev",
+        "dompdf/dompdf": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Espejel",
+            "email": "carlosespejel71@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
